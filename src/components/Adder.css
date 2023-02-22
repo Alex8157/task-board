@@ -6,10 +6,16 @@
   border-radius: 6px;
   padding: 10px;
   margin: 30px;
-  max-width: 400px;
+  width: 400px;
 }
 
 .nameDateDiv {
   width: 100%;
   display: flex;
+}
+
+@media screen and (max-width: 720px) {
+  .adder {
+    width: 80%;
+  }
 }
