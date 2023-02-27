@@ -18,3 +18,10 @@
 .delete {
   cursor: pointer;
 }
+
+@media screen and (max-width: 720px) {
+  .topInfo {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

@@ -20,7 +20,7 @@ export function Task(prop) {
         <Title level={4} ellipsis="true" style={{ margin: "5px" }}>
           {prop.task.name}
         </Title>
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
           <Title level={4} style={{ margin: "5px", minWidth: "96px" }}>
             {makeDDMMYYYY(prop.task.date)}
           </Title>
